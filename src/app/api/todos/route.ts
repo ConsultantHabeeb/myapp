@@ -2,7 +2,7 @@ import axios from "axios";
 import { NextResponse } from "next/server";
 
 const API_URL='https://jsonplaceholder.typicode.com/todos';
-
+/* 
 export async function GETqqq(){
 
     const res = await fetch(API_URL)
@@ -10,7 +10,7 @@ export async function GETqqq(){
     const todos =await res.json()
 
     return NextResponse.json(todos)
-}
+} */
 
 export async function GET(){
 
